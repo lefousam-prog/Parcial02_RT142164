@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854988630884",
+    "project_id": "parcial02rt142164",
+    "storage_bucket": "parcial02rt142164.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854988630884:android:44f81d5b1ebf0307cf2871",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.parcial02_rt142164"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854988630884-8rm00e9mjv7rt3vpg5gfjim7bik22dmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1Qq7uX2ZVwSwQdSj9VrwCykpB-oURmzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854988630884-8rm00e9mjv7rt3vpg5gfjim7bik22dmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

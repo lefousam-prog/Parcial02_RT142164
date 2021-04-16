@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Parcial02_rt142164"

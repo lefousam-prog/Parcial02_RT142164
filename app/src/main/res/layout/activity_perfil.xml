@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/back_ground">
+<TextView
+    android:gravity="center_horizontal"
+    android:text="Registro de Usuario"
+    android:textSize="28sp"
+    android:textColor="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"/>
+
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtName"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="55dp"
+        android:hint="Nombres"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtSurnames"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:hint="Apellidos"
+        android:background="@color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtCarnet"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:hint="Carnet"
+        android:background="@color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtTelephone"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:hint="Telefono "
+        android:background="@color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtAge"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:hint="Edad"
+        android:background="@color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<TextView
+    android:gravity="center_horizontal"
+    android:text="Tipo de Autentificación"
+    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    />
+
+        <TextView
+            android:id="@+id/tvAuth"
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"/>
+
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Guardar" />
+
+    <Button
+    android:id="@+id/btnCancel"
+    android:text="Cerrar sesión"
+        android:layout_width="350dp"
+        android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content" />
+
+
+</LinearLayout>
